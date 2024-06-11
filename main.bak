@@ -1,0 +1,26 @@
+;name surname
+;student id
+;compiling: yes
+;complete: yes
+#lang racket
+
+(provide (all-defined-out))
+
+
+(define (binary_to_decimal binary))
+
+(define (relocator args limit base))
+
+(define (divide_address_space num page_size))
+
+(define (page args page_table  page_size))
+
+(define (find_sin value num))
+
+(define (myhash arg table_size))
+
+(define (hashed_page arg table_size page_table page_size))
+
+(define (split_addresses args size))
+
+(define (map_addresses args table_size page_table page_size address_space_size))
